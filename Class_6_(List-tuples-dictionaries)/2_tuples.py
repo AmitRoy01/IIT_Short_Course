@@ -3,14 +3,14 @@ info = ("Alice", 25, "Engineer")
 
 # Accessing items works just like lists
 print(info)               # Output: ('Alice', 25, 'Engineer')
-print(info[0])            # Output: Alice (first item) 
+print(info[-1])            # Output: Alice (first item) 
 
 # Access through loop
 print("Info: ")
 for item in info:
     print(item)
 
-# Packing and Unpacking 
+# # Packing and Unpacking 
 person = ("Bob", 30, "Doctor")    # Packing
 name, age, job = person           # Unpacking
 

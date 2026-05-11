@@ -10,8 +10,8 @@ print(f"Name: {student["name"]}")       # Output: Alice
 print(f"Age: {student.get("age")}") 
 
 # Accessing non existing key
-# print(student["id"])
-# print(student.get("id"))
+#print(student["id"]) 
+#print(student.get("id"))
   
 # # Adding or updating a key-value pair
 student["age"] = 23          # Updates age to 23
